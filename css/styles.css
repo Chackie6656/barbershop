@@ -396,10 +396,11 @@ body {
     
     background-color: #f9f6f3;
     border: 2px solid #000101;
-    margin-right: 19px;
-    width: 119px;
-    height: 40px;
-    padding-left: 16px;
+    margin-right: 20px;
+    float: left;
+    width: 105px;
+    height: 25px;
+    padding: 7px 15px;
     margin-bottom: 20px;
     outline: none;
     
