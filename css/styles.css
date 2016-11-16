@@ -633,6 +633,7 @@ body {
     text-transform: uppercase;
     color: #000000;
     
+    outline: none;
     width: 241px;
     height: 23px;
     margin-bottom: 10px;
@@ -642,7 +643,7 @@ body {
     background-color: #f9f6f3;
 }
 
-.login-form input:focus, {
+.login-form input:focus {
     border: 2px solid #663d15;
 }
 
