@@ -573,11 +573,18 @@ body {
     box-shadow: 0 30px 50px rgba(0, 0, 0, 0.7);
 }
 
+.login-popup-show {
+    display: block;
+}
+    
 .login-close {
     position: absolute;
     top: 0;
     right: -35px;
     
+    background-color: transparent;
+    outline: 0;
+    border: 0;
     width: 25px;
     height: 25px;
     cursor: pointer;
@@ -715,11 +722,22 @@ body {
     box-shadow: 0 30px 50px rgba(0, 0, 0, 0.7);
 }
 
+.map-popup-show {
+    display: block;
+}
+
+.map-popup iframe {
+    border-width: 0;
+}
+
 .map-close {
     position: absolute;
     top: -9px;
     right: -44px;
     
+    background-color: transparent;
+    outline: 0;
+    border: 0;    
     width: 25px;
     height: 25px;
     cursor: pointer;
@@ -743,6 +761,8 @@ body {
 .map-close::after {
     transform: rotate(-45deg);
 }
+
+
 /* ------------------------------------------------------------------- */
 
 
