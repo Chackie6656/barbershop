@@ -3,8 +3,8 @@
     <head>
         <meta charset="UTF-8">
         <title>Барбершоп «Бородинский»</title>
-        <link rel="stylesheet" href="css/styles.css">
         <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/styles.min.css">
         <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=cyrillic-ext" rel="stylesheet">
     </head>
     <body class="item-page">
@@ -90,5 +90,22 @@
                 </section>
             </div>
         </footer>
+        <div class="login-popup">
+            <button class="login-close"></button>
+            <h2>Личный кабинет</h2>
+            <p>Введите пожалуйста свой логин и пароль</p>
+            <form class="login-form" action="#" method="post">
+                <input class="icon-user" type="text" placeholder="Логин" name="login">
+                <input class="icon-password" type="password" placeholder="Пароль" name="password">
+                <label class="login-checkbox">
+                    <input type="checkbox">
+                    <span class="checkbox-indicator"></span>
+                    <span>Запомните меня</span>
+                </label>
+                <a href="">Я забыл пароль</a>
+                <input class="btn" type="submit" value="Войти">
+            </form>
+        </div>
+        <script src="js/scripts.js"></script>
     </body>
 </html>
