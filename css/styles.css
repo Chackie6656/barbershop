@@ -27,7 +27,6 @@ body {
     width: 940px;
     padding-left: 10px;
     padding-right: 10px;
-    
 }
 
 .main-navigation {
@@ -310,7 +309,196 @@ body {
     width: 140px;    
     margin: 0;
 }
+/* --------------------------------- end of main ---------------------------------------*/
 
+.shop-page {
+    background: #f9f6f3 url("../img/content-background.jpg") top;
+    color: #000000;
+}
+
+.shop-form {
+    float: left;
+    width: 220px;
+    
+}
+
+.shop-form fieldset {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+.shop-form legend {
+    font-size: 24px;
+    line-height: normal;
+    margin-bottom: 30px;
+    padding-top: -px;
+}
+
+.shop-form label {
+    position: relative;
+    padding-left: 45px;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.shop-form label:last-child {
+    margin-bottom: 45px;
+}
+
+.shop-form input[type="checkbox"] {
+    display: none;
+}
+
+.shop-form input[type="checkbox"] + .checkbox-indicator {
+    position: absolute;
+    top: 2px;
+    left: 0px;
+  
+    width:16px;
+    height:16px;
+    border: 2px solid #000000;
+}
+
+.shop-form input[type="checkbox"]:checked + .checkbox-indicator::before,
+.shop-form input[type="checkbox"]:checked + .checkbox-indicator::after {
+    content: "";
+    position: absolute;
+    top: 7px;
+    left: 1px;
+    width: 14px;
+    height: 2px;
+    background-color: #000000; 
+}
+
+.shop-form input[type="checkbox"]:checked + .checkbox-indicator::before {
+    transform: rotate(45deg);
+}
+
+.shop-form input[type="checkbox"]:checked + .checkbox-indicator::after {
+    transform: rotate(-45deg);
+}
+
+.shop-form input[type="radio"] {
+    display: none;
+}
+
+.shop-form input[type="radio"] + .radio-indicator {
+    position: absolute;
+    top: 2px;
+    left: 0px;
+    
+    width:16px;
+    height:16px;
+    border: 2px solid #000000;
+    border-radius: 100px;
+}
+
+.shop-form input[type="radio"]:checked + .radio-indicator::before {
+    content: "";
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    width: 8px;
+    height: 8px;
+    background-color: #000000; 
+    border-radius: 100px;
+}
+
+.goods {
+    float:right;
+    width: 700px;
+    margin-top: 7px;
+    font-size: 0;
+}
+
+.goods-article {
+    display: inline-block;
+    width: 220px;
+    background-color: #ffffff;
+    box-shadow: 0 0px 15px rgba(0, 0, 0, 0.2);
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.goods-article:nth-child(3n) {
+    margin-right: 0; 
+}
+
+.goods-article:last-child {
+    margin-bottom: 45px; 
+}
+
+.goods-article img {
+    height: 165px;
+    width: 220px;
+    margin-bottom: 15px;
+}
+
+.goods-name {
+    font-size: 14px;
+    line-height: 18px;
+    padding-left: 15px;
+    margin-bottom: 10px;
+}
+
+.goods-name a {
+    text-decoration: none;
+    color: #000000;
+    text-transform: none;
+}
+
+.goods-buy {
+    margin: 15px;
+    background-color: #e5e5e5;
+}
+
+.goods-buy .price {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    font-size: 14px;
+    line-height: 18px;
+    width: 110px;
+    height: 14px;
+    padding: 15px 0;
+}
+
+.paginator {
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.paginator a{
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #000000;
+    width: 43px;
+    height: 17px;
+    padding: 13px 0;
+    margin-right: 7px;
+}
+
+.paginator a:hover{
+    background-color: #663d15;
+}
+
+.paginator .active{
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    color: #000000;
+    background-color: #ffffff;
+    width: 43px;
+    height: 17px;
+    padding: 13px 0;
+    margin-right: 7px;
+}
+
+/*---------------------------------- item.html -----------------------------------------*/
 .item-page {
     background: #f9f6f3 url("../img/content-background.jpg") top;
     color: #000000;
@@ -379,6 +567,7 @@ body {
     height: 498px;
     margin-bottom: 20px;
     display: inline-block;
+    box-shadow: 0 0px 15px rgba(0, 0, 0, 0.2);
 }
 
 .product-photo .previev-photo {
@@ -386,6 +575,7 @@ body {
     height: 149px;
     display: inline-block;
     margin-right: 18px;
+    box-shadow: 0 0px 15px rgba(0, 0, 0, 0.2);
 }
 
 .product-photo .previev-photo:last-child {
