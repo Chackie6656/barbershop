@@ -765,7 +765,7 @@ body {
 .item-page .main-footer,
 .shop-page .main-footer,
 .price-page .main-footer {
-    background: url(../img/footer-shadow.png) no-repeat, #222222 url(../img/footer-background.jpg);
+    background: url(../img/footer-shadow.png) repeat-x, #222222 url(../img/footer-background.jpg);
 }
 
 .footer-contacts {
